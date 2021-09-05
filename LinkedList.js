@@ -44,7 +44,7 @@ class LinkenList {
             data = data + current.data + " "
             current = current.next
         }
-        data += this.tail.data
+       
         return data
     }
     insertAt(index,data){
